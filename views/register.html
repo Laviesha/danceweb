@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/style3.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+        <ul>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/about">About</a></li>
+            
+        </ul>
+    </div>
+    </nav>
+ <div class="c1">
+    <form action="/register" method="post" class="f1">
+      
+
+        <label for="fname"> Name: </label>
+        <input type="text" class="my" name="name" required><br><br>
+        <label for="l2name">Phone no. :</label>
+        <input type="phone" class="my" name="phone" required><br><br>
+        <!---<label for="fname"> Gender: </label>
+        <fieldset>
+            
+            <p>
+                Male <input type="radio" name="gender" id="male" required>
+                Female <input type="radio" name="gender" id="female" required>
+            </p>
+        </fieldset><br><br>-->
+       <!--- <label for="lname">Date-of-birth:</label>
+         <input type="date" class="my" name="date" required><br><br>-->
+        <label for="l1name">Email:</label>
+        <input type="email" class="my" name="email" required><br><br>
+        <label for="l2name">Address:</label>
+        <textarea class="my" name="address" rows="5"  required> </textarea><br><br>
+       <!--- <label for="l2name">Type of Dance: *</label>-->
+       <!-- <fieldset>
+            
+            <p>
+                Salsa <input type="radio" name="dance" id="Salsa" >
+                Kathak <input type="radio" name="dance" id="Kathak">
+                Club <input type="radio" name="dance" id="Club" >
+                Tango <input type="radio" name="dance" id="Tango">
+                Other <input type="radio" name="dance" id="Other" required>
+            </p>
+        </fieldset>-->
+        <button class="btn" type="submit">Submit</button>
+      </form>
+    </div>
+      
+
+
+</body>
+</html>

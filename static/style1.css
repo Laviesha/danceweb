@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+    body{
+        background-image: url("/static/o3.jpg");
+        background-size: cover;
+    background-attachment: fixed;
+    }
+    .navbar{
+      background-color: #d43b3b;
+      font-family: 'Yeon Sung' ;
+      padding: 18px, 14px;
+  }
+  .navbar ul{
+      display: flex;
+      flex-direction: row;
+      
+      align-items: center;
+  }
+  .navbar li{
+      list-style: none;
+  }
+  .navbar li a{ 
+      color:#fff;
+     text-decoration: none;
+     font-size: 30px;
+      padding: 13px 20px;
+  }
+  .navbar li a:hover{
+      color: black;  
+  }
+
+
+  .b p{
+    color:#fff;
+    margin:83px 5px 10px 10px;
+    font-size: 29px;
+
+    font-weight: 100;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-img{
+    height: 131px;
+    padding: 1px 14px;
+    margin: 10px 9px 10px 12px;
+}
+.card-img img{
+    height: inherit; 
+}
